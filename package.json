@@ -1,0 +1,22 @@
+{
+  "name": "mindclass",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MindClass — plataforma escolar para professores e alunos",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js",
+    "teste": "node dev.js",
+    "teste:reset": "node dev.js --reset",
+    "configurar-banco": "node configurar-banco.js",
+    "criar-admin": "node criar-admin.js",
+    "copiar-supabase": "node copiar-para-supabase.js"
+  },
+  "dependencies": {
+    "pg": "^8.23.1"
+  }
+}
